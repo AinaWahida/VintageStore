@@ -1,0 +1,131 @@
+/* General Header Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #2f2f2f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.site-name {
+    font-size: 1.8em;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #f7d0a5; /* Light vintage color */
+}
+
+/* Navigation Styling */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #f7d0a5;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.searchBox input{
+    padding: 12px 20px; /* Increased size */
+    border: 2px solid #ddd;
+    border-radius: 10px; /* Border radius updated to 10px */
+    font-size: 1.2em; /* Slightly bigger font size */
+    outline: none;
+    transition: border 0.3s ease;
+    width: 300px;
+    height: 20px;
+}
+
+.searchBox button {
+    padding: 12px 20px; /* Increased button size */
+    border: none;
+    background-color: #f7d0a5;
+    color: #2f2f2f;
+    font-size: 1.2em;
+    border-radius: 10px; /* Button border radius to match the input */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchBox button:hover {
+    background-color: #e1b07a;
+}
+
+/* User Actions (Profile & Cart) */
+.user-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: #f7d0a5;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.user-actions a:hover {
+    color: #fff;
+}
+
+.cart-icon, .profile-icon {
+    font-size: 1.5em;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .user-actions {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,4 @@
+userid,productid,address,paymentType,price
+1,5,Dress,USM Penang,creditCard,20-01-25 01:15,150.99
+1,18,Necklace,USM Penang,creditCard,20-01-25 01:15,4500.89
+1,2,Lamp,Jalan Mawar 8,bankTransfer,20-01-25 03:18,12.99

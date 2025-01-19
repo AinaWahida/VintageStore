@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    background-color: #fff;
+    border: 2px solid #f7d0a5;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register-container h1 {
+    margin-bottom: 20px;
+    color: #2f2f2f;
+    font-size: 1.8em;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 1em;
+    text-align: left;
+}
+
+.register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.register-form input:focus {
+    border-color: #f7d0a5;
+    outline: none;
+    box-shadow: 0 0 4px rgba(247, 208, 165, 0.8);
+}
+
+.register-button {
+    padding: 10px 15px;
+    background-color: #f7d0a5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #2f2f2f;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #e1b07a;
+}
+
+/* Message Styling */
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.message.success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}

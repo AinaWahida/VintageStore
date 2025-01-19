@@ -1,0 +1,21 @@
+ID,Name,Price,Description,ImageURL,Category,Sale,NewArrival
+1,Sofa,499.99,A comfy vintage sofa for your living room.,VintageSofa.png,Furnitures,Yes,No
+2,Lamp,12.99,A decorative vintage lamp for warm lighting.,VintageLamp.jpg,Decorations,Yes,No
+3,Dress,55.35,A stylish vintage dress for any occasion.,VintageDress.jpg,Clothes,Yes,Yes
+4,Man Suit,278.9,A classic vintage menâs suit.,VintageSuit.jpg,Clothes,Yes,Yes
+5,Dress,150.99,A beautiful vintage dress with unique details.,VintageDress1.jpg,Clothes,Yes,No
+6,Home Decorations,30.8,Vintage decor items for your home.,VintageDecor.jpg,Decorations,No,No
+7,Vintage Phone,345.9,A retro-style vintage telephone.,VintagePhone.jpg,Decorations,No,No
+8,Vintage Closet,1800.99,A vintage wooden closet for storage.,VintageCloset.jpg,Furnitures,Yes,Yes
+9,Antique Chair,248.9,A charming antique-style chair.,VintageChair.jpg,Furnitures,Yes,No
+10,Glob Decorations,13.2,Decorative vintage globe ornaments.,VintageGlobDecor.jpg,Decorations,No,No
+11,Vintage Music Box,500.9,A charming vintage music box.,VintageMusicBox.jpg,Music,No,No
+12,Piano,5500.0,A classic vintage piano for decoration.,VintagePiano.jpg,Music,No,Yes
+13,Leather Watch,340.0,A vintage leather strap watch.,VintageWatch1.jpg,Accessories,Yes,Yes
+14,Watch,220.0,A unique vintage wristwatch.,VintageWatch2.jpg,Accessories,Yes,Yes
+15,Console Table,700.99,A vintage console table for display.,VintageTable.jpg,Furnitures,Yes,No
+16,Suitcase,350.9,A vintage suitcase for storage or travel.,VintageSuitcase.jpg,Accessories,No,No
+17,Key holder,25.0,A vintage key holder to organize keys.,VintageKeyHolder.jpg,Decorations,No,No
+18,Necklace,4500.89,A vintage necklace for a classic look.,VintageNecklace.jpg,Accessories,No,Yes
+19,Scarf,67.0,A cozy vintage scarf for warmth and style.,VintageScarf.jpg,Clothes,Yes,Yes
+20,Mirror,189.0,A vintage mirror with a beautiful frame.,VintageMirror.png,Decorations,No,Yes
